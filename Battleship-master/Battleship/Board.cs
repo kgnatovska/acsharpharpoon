@@ -30,8 +30,6 @@ namespace Battleship
                 case "Battleship.AircraftCarrier":
                     _aircraftCarrierCount -= 1;
                     break;
-                default:
-                    throw new SomethingIsWrongException();
             }
         }
 
